@@ -23,7 +23,7 @@ void draw()
     {
       pushMatrix();
       PVector point = keypoints.get(j);
-      translate(point.x+random(0, 20), point.y+random(0, 20));
+      translate(point.x+random(0, 10), point.y+random(0, 10));
       rotate(TWO_PI * random(0, 1));
       stroke(0, 0, 0, 10);
       line(-10000, 0, 10000, 0);
